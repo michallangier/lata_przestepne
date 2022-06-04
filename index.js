@@ -1,8 +1,9 @@
 let year = -8;
 
 try {
-    if (Number.isInteger(year)) console.log(`${year} - correct value (integer).`)
-    else {
+    if (Number.isInteger(year)) { 
+        console.log(`${year} - correct value (integer).`)
+    } else {
         console.log(`${year} is not an integer, type in correct value.`)
         process.exit(1)
     }
